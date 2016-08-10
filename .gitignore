@@ -1,3 +1,4 @@
+
 .idea
 .idea/
 .DS_Store
@@ -8,4 +9,5 @@ dist/*
 src/config/*.tmp
 src/config/env.js
 /index.html
+8e0c015fe3107ad760009acbe8eebc8cdf562068
 /index_prod.html
