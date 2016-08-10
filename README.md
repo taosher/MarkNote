@@ -13,16 +13,14 @@ TODO: 使用Cordova打包成Hybrid App
 
 Get Start:
 
-1.
+1. 安转依赖：
 ```bash
 npm install
 ```
-
 2. 开发环境： 
 ```bash
 npm run dev
 ```
-
 3. 生产环境：
 ```bash
 npm build
