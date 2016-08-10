@@ -12,20 +12,8 @@ a single page app powered by Vue.js
 4. 专为移动端开发
 5. 全部数据使用localStorage储存在本地
 
- ![Screenshot_2016-08-10-15-05-11_com.android.browser_1470814628315](.\images\Screenshot_2016-08-10-15-05-11_com.android.browser_1470814628315.jpg)
-
-
-
- ![Screenshot_2016-08-10-15-09-30_com.android.browser_1470814617004](.\images\Screenshot_2016-08-10-15-09-30_com.android.browser_1470814617004.jpg)
-
-
-
- ![Screenshot_2016-08-10-15-11-25_com.android.browser_1470814599533](.\images\Screenshot_2016-08-10-15-11-25_com.android.browser_1470814599533.jpg)
-
-
-
- ![Screenshot_2016-08-10-15-14-06_com.android.browser_1470814579147](.\images\Screenshot_2016-08-10-15-14-06_com.android.browser_1470814579147.jpg)
-
+ 
+ 图片见images目录
 
 
 TODO: 使用Cordova打包成Hybrid App
