@@ -1,5 +1,5 @@
 {
-  "name": "vue-vue-router-webpack",
+  "name": "MarkNote",
   "version": "1.0.0",
   "description": "A base vue project with webpack",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/icarusion/vue-vueRouter-webpack.git"
+    "url": "git+https://github.com/paoloo1995/MarkNote"
   },
   "author": "Aresn",
   "license": "MIT",
