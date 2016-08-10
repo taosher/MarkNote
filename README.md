@@ -1,16 +1,32 @@
-#vue-vueRouter-webpack
-> 本项目可以帮你快速搭建一个基于Vue的单页面富应用,但这并不意味着是最佳实践,所有的目录结构和webpack配置都可以根据自己需要修改
 
-##教程
-> 可以访问下面的链接来查看系列教程
+# MarkNote
+a single page app powered by Vue.js
 
-[Vue+Webpack开发可复用的单页面富应用教程（配置篇）](https://www.talkingcoder.com/article/6310080842228107877)
+一个使用Vue.js开发的SPA
+一个易用的笔记应用
 
-[Vue+Webpack开发可复用的单页面富应用教程（组件篇）](https://www.talkingcoder.com/article/6310724958473489215)
+1. 使用Vuex实现组件间通信
+2. 全部使用`vw`布局
+3. 使用vue-router实现前端路由
+4. 专为移动端开发
 
-[Vue+Webpack开发可复用的单页面富应用教程（技巧篇）](https://www.talkingcoder.com/article/6310756346094488391)
+TODO: 使用Cordova打包成Hybrid App
 
-[Vue+Webpack使用规范](https://www.talkingcoder.com/article/6309726065044556372)
+Get Start:
+
+1.安装依赖：
+```bash
+npm install
+```
+2.开发环境： 
+```bash
+npm run dev
+```
+3.生产环境：
+```bash
+npm build
+```
+
 ##目录结构
 <pre>
 │  .gitignore          # 忽略文件,比如 node_modules
@@ -61,57 +77,6 @@
          └─ index.html # 默认的html模板
 
 </pre>
-
-
-##说明
-目前已将css(使用@import的和.vue内style的)样式都独立抽离为main.css文件,如果想按需加载,可以将webpack.base.js内的如下代码注释
-```javascript
-vue: {
-    loaders: {
-        css: ExtractTextPlugin.extract(
-            "style-loader",
-            "css-loader?sourceMap",
-            {
-                publicPath: "../dist/"
-            }
-        )
-    }
-}
-
-new ExtractTextPlugin("[name].css",{ allChunks : true,resolve : ['modules'] }),
-```
-
-#如何使用
-
-##说明
-> 目前已将打包后的dist目录和webpack生成的index.html和index_prod.html加入了git忽略列表,如果不需要这样做,请修改。
-> 目前分开发环境和生产环境,分别对应webpack.dev.config.js和webpack.prod.config.js可以根据自己需要来调整相关webpack配置,比如添加灰度环境配置。
-> 目前的开发环境文件使用默认命名,生产环境使用带hash值的命名,可根据自己需要修改,但不建议修改本地环境为带hash的。
-> 入口的html文件模板在src/template/index.html内,可自行修改
-
-##安装
-```
-// 安装前请先确保已安装node和npm
-// 需要提前在全局安装webpack和webpack-dev-server,如果已安装请忽略
-npm install webpack -g
-npm install webpack-dev-server -g
-
-// 安装成功后,再安装依赖
-npm install
-```
-
-##运行
-####开发环境
-```
-// 注意首次使用需要执行下面的init命令来生成入口html文件,以后不用再执行
-npm run init
-npm run dev
-```
-
-####生产环境(打包)
-```
-npm run build
-```
 
 ####访问
 在浏览器地址栏输入http://127.0.0.1:8080
