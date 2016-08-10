@@ -13,12 +13,12 @@ a single page app powered by Vue.js
 5. 全部数据使用localStorage储存在本地
 
  
- 图片见images目录
+> 图片见images目录
 
 
 TODO: 使用Cordova打包成Hybrid App
 
-Get Start:
+##Get Start:
 
 1.安装依赖：
 ```bash
