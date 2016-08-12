@@ -30,7 +30,7 @@ npm run dev
 ```
 3.生产环境：
 ```bash
-npm build
+npm run build
 ```
 
 ##目录结构
